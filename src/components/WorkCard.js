@@ -1,3 +1,4 @@
+/*
 import "./WorkCardStyles.css"
 
 import React from 'react'
@@ -20,3 +21,5 @@ const WorkCard = (props) => {
 }
 
 export default WorkCard
+
+*/

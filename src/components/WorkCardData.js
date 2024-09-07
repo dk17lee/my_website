@@ -1,3 +1,4 @@
+/*
 import ninjago from "../assets/ninjago.png"
 import starwars from "../assets/starwars.png"
 import minecraft from "../assets/minecraft.png"
@@ -26,3 +27,4 @@ const ProjectCardData = [
 ]
 
 export default ProjectCardData;
+*/

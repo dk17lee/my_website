@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /*
 this is to change font to correct; are these buttons???? 
@@ -8,7 +7,7 @@ this is to change font to correct; are these buttons????
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Outfit", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 

@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <Navbar/>
       <HeroImg/>
-      <Work/>
+      {/*<Work/>*/}
       <Footer />
     </div>
   )

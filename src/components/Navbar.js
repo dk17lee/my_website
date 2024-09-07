@@ -5,6 +5,8 @@ import React, {useState} from 'react'
 
 import { FaBars, FaTimes } from "react-icons/fa"
 
+import headShot from "../assets/headshot.JPG"
+
 
 
 const Navbar = () => {
@@ -27,7 +29,8 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
         <Link to = "/">
-            <h1>Portfolio</h1>
+            {/*<img src = {headShot} alt = "Daniel face" className="headshot"/>*/}
+            <h1>Daniel Lee</h1>
         </Link>
         <ul className={click ? "nav-menu active" : 
         "nav-menu"}>
