@@ -1,27 +1,20 @@
-/*
-this is the main js file. Every other file will be called within this. 
-*/
-
-import React from "react";
+import React from 'react';
 import "./index.css"
-import Home from "./routes/Home";
-import About from "./routes/About"
-import Contact from "./routes/Contact"
-import Project from "./routes/Project"
-import { Route, Routes } from "react-router-dom"
-
+import Navbar from './components/Navbar';
+import HeroImg from './components/HeroImg';
+import AboutContent from './components/AboutContent';
+import Form from './components/Form';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <Routes>
-        <Route path = "/" element = {<Home />}/>
-        <Route path = "/project" element = {<Project />}/>
-        <Route path = "/about" element = {<About />}/>
-        <Route path = "/contact" element = {<Contact />}/>
-      </Routes>
+      <Navbar />
+      <HeroImg />
+      <AboutContent />
+      <Form />
+      <Footer />
     </>
   );
 }
-
 export default App;

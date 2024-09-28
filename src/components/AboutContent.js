@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-scroll"
 import "./AboutContentStyles.css"
 import React from 'react'
 import brain from "../assets/brain_img.webp"
@@ -6,12 +6,12 @@ import ninjago from "../assets/ninjago.png"
 
 const AboutContent = () => {
   return (
-    <div className="about">
+    <div id="about" className="about">
         <div className="left">
             <h1>Who am I?</h1>
             <p>I am Daniel, a student at Brown University interested in neuroscience and computer science</p>
-            <Link to = "/contact">
-                <button className="btn">Contact</button>
+            <Link to="contact" smooth={true} duration={500}>
+                <button className="btn">Contact Me</button>
             </Link>
         </div>
 

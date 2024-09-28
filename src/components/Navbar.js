@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-scroll"
 import './NavbarStyles.css';
 
 import React, {useState} from 'react'
@@ -6,8 +6,6 @@ import React, {useState} from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
 
 import headShot from "../assets/headshot.JPG"
-
-
 
 const Navbar = () => {
 
@@ -28,23 +26,23 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-        <Link to = "/">
+        <Link to="home" smooth={true} duration={500}>
             {/*<img src = {headShot} alt = "Daniel face" className="headshot"/>*/}
             <h1>Daniel Lee</h1>
         </Link>
         <ul className={click ? "nav-menu active" : 
         "nav-menu"}>
           <li>
-            <Link to={"/"}>Home</Link>
+            <Link to="home" smooth={true} duration={500}>Home</Link>
           </li>
           <li>
-            <Link to={"/project"}>Project</Link>
+            <Link to="about" smooth={true} duration={500}>About</Link>
           </li>
           <li>
-            <Link to={"/about"}>About</Link>
+            <Link to="contact" smooth={true} duration={500}>Contact</Link>
           </li>
           <li>
-            <Link to={"/contact"}>Contact</Link>
+            <Link to="footer" smooth={true} duration={500}>Footer</Link>
           </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className="form">
+    <div id="contact" className="form">
         <form>
             <label>Your Name</label>
             <input type="text"></input>

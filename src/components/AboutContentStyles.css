@@ -5,7 +5,11 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 80px;
     height: 100%;
+}
+#about{
+    scroll-margin-top: 80px;
 }
 
 .about .left{
